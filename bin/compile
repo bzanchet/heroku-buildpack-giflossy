@@ -9,7 +9,7 @@ indent() {
 }
 
 VERSION="1.91"
-TAR_URL="https://github.com/kornelski/giflossy/archive/v$VERSION.tar.gz"
+TAR_URL="https://github.com/kornelski/giflossy/archive/$VERSION.tar.gz"
 
 echo "-----> Installing gifsicle with lossy compression ability"
 
