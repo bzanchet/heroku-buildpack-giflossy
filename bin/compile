@@ -29,7 +29,7 @@ if [ ! -f "$CACHE_FILE" ]; then
   curl -L --silent $TAR_URL | tar xz
 
   echo "-----> Building gifsicle"
-  cd "gifsicle-$VERSION/"
+  cd "giflossy-$VERSION/"
 
   ./bootstrap.sh | indent
   autoconf -i | indent
@@ -38,7 +38,7 @@ if [ ! -f "$CACHE_FILE" ]; then
   make | indent
   make install | indent
 
-  rm -rf "gifsicle-$VERSION/"
+  rm -rf "giflossy-$VERSION/"
 
   echo "-----> Caching gifsicle installation"
   cd "$VENDOR_DIR"
