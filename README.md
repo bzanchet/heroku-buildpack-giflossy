@@ -1,9 +1,9 @@
 heroku-buildpack-gifsicle
 =========================
 
-Heroku buildpack for gifsicle support.
+Heroku buildpack for gifsicle with lossy-compression support.
 
-Binary for gificle is compiled using the a release on [gifsicle's repo](https://github.com/kohler/gifsicle).
+Binary for gificle is compiled using the a release on [giflossy's repo](https://github.com/kornelski/giflossy).
 
 Current version: 1.91
 
@@ -16,4 +16,4 @@ Example:
 
     $ cat .buildpacks
     https://github.com/heroku/heroku-buildpack-ruby
-    https://github.com/jc4p/heroku-buildpack-gifsicle
+    https://github.com/bzanchet/heroku-buildpack-giflossy
