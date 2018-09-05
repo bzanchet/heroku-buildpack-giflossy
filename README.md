@@ -5,7 +5,7 @@ Heroku buildpack for gifsicle support.
 
 Binary for gificle is compiled using the a release on [gifsicle's repo](https://github.com/kohler/gifsicle).
 
-Current version: 1.87
+Current version: 1.91
 
 Usage
 =====
